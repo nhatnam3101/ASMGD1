@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ASMGD1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">824558441690365</string> <string name="fb_login_protocol_scheme">fb824558441690365</string>
+
+
+</resources>

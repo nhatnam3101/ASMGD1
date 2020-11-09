@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:elevation="6dp"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="5dp"
+    android:id="@+id/itemKhoahoc">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgkh"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_course_2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:id="@+id/MAkh"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã Khóa học: "
+            android:layout_marginLeft="80dp"/>
+        <TextView
+            android:id="@+id/tv_Makh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_alignLeft="@+id/MAkh"
+            android:layout_marginLeft="95dp"
+
+            />
+        <TextView
+            android:id="@+id/Tenkh"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/MAkh"
+            android:text="Mã Khóa học: "
+            android:layout_marginLeft="80dp"/>
+        <TextView
+            android:id="@+id/tv_Tenkh"
+            android:layout_below="@+id/tv_Makh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Tenkh"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="95dp"/>
+        <TextView
+            android:id="@+id/tv_dateSta"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tv_Tenkh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date Start: "
+            android:layout_marginLeft="80dp"/>
+        <TextView
+            android:id="@+id/tv_Sta"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tv_Tenkh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_dateE"
+            android:layout_marginLeft="75dp"/>
+        <TextView
+            android:id="@+id/tv_dateE"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tv_dateSta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date End: "
+            android:layout_marginLeft="80dp"/>
+        <TextView
+            android:id="@+id/tv_End"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tv_dateSta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_dateE"
+            android:layout_marginLeft="70dp"/>
+        <ImageView
+            android:id="@+id/imgUP"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/ic_loop_arrow"
+            android:layout_marginRight="5dp"/>
+        <ImageView
+            android:id="@+id/imgclose"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_delete_1"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="36dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
